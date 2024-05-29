@@ -17,7 +17,7 @@
     "access": "public"
   },
   "scripts": {
-    "contracts:compile": "typechain --target ethers-v5 --out-dir src/abi/types './node_modules/@uniswap/v3-periphery/artifacts/contracts/**/*Multicall*.json'",
+    "contracts:compile": "typechain --target ethers-v5 --out-dir src/abi/types './node_modules/smartswap-v3-periphery/artifacts/contracts/**/*Multicall*.json'",
     "lint": "tsdx lint .",
     "test": "tsdx test src",
     "test:e2e": "tsdx test integration-tests",
